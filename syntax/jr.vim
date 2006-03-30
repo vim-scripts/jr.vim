@@ -1,8 +1,8 @@
 " Vim syntax file
 " Language:     JR
-" Maintainer:   Francois Kilchoer <kilchoer.eif@gmail.com>
+" Maintainer:   Francois Kilchoer <francois.kilchoer@gmail.com>
 " URL:		
-" Last Change:  2006 Jan 01
+" Last Change:  2006 Mar 30
 
 " Relies heavily on the java syntax file...
 if version < 600
@@ -18,8 +18,8 @@ else
    unlet b:current_syntax
 endif
 
-:syntax keyword JRinvocation call send forward
-:syntax keyword JRstatement as by inni receive reply send st view
+:syntax keyword JRinvocation call co send forward
+:syntax keyword JRstatement as by elseafter inni receive reply send st view
 :syntax keyword JRdeclaration cap op process remote sem vm
 :syntax keyword JRprimitive P V
 :syntax keyword JRexceptionHand handler
